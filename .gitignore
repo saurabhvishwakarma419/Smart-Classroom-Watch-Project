@@ -1,1 +1,58 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.bak
+*~
 
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+dist/
+*.bin
+*.hex
+*.elf
+
+# Environment variables
+.env
+.env.local
+config/secrets.json
+
+# Database
+*.db
+*.sqlite
+
+# Firmware
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Mobile
+*.apk
+*.ipa
+android/app/build/
+ios/Pods/
+
+# Logs
+logs/
+*.log
